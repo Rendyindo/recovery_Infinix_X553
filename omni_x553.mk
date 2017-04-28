@@ -8,11 +8,11 @@ $(call inherit-product, $(SRC_TARGET_DIR)/product/aosp_base.mk)  # If you are bu
 $(call inherit-product, device/vendor/codename/device.mk)
 
 ## Device identifier. This must come after all inclusions
-PRODUCT_NAME := omni_codename
-PRODUCT_DEVICE := codename
-PRODUCT_BRAND := vendor
-PRODUCT_MODEL := codename
-PRODUCT_MANUFACTURER := vendor
+PRODUCT_NAME := omni_x553
+PRODUCT_DEVICE := Infinix Hot 3 LTE
+PRODUCT_BRAND := Infinix
+PRODUCT_MODEL := x553
+PRODUCT_MANUFACTURER := Infinix
 
 # If needed to overide these props
 PRODUCT_BUILD_PROP_OVERRIDES += \
