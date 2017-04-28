@@ -1,0 +1,6 @@
+/boot          emmc      /dev/block/bootdevice/by-name/boot
+/system        ext4      /dev/block/bootdevice/by-name/system
+/data          ext4      /dev/block/bootdevice/by-name/userdata      length=-16384
+/cache         ext4      /dev/block/bootdevice/by-name/cache
+/external_sd   vfat      /devices/soc.0/7864900.sdhci/mmc_host/mmc1              flags=display="Micro SDcard";storage;wipeingui;removable
+/usbstorage	   vfat		 /devices/platform/msm_hsusb									  flags=display="USB Storage";storage;removable
